@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.bg {
+  background: linear-gradient(to right,#0f0c29,#302b63,#24243e)
+}
+.jumbotron {
+  display: none;
+}
+a {
+  color :black;
+}
+.white-text {
+  color: white
+}
+.card {
+  /* margin: 20px; */
+  /* background: linear-gradient(to right, #ADA996,#F2F2F2,#DBDBDB,#EAEAEA) */
+}
+.toppers-img {
+  margin-top:30px;
+  max-height: 250px;
+}
+.adjustmargin {
+  margin: 20px;
+  padding: 0 10px;
+}
+.toppers:nth-child(2) {
+  background: linear-gradient(to right, #ADA996,#F2F2F2,#DBDBDB,#EAEAEA)
+}
+.toppers:nth-child(1) {
+  background: linear-gradient(to right, #F7971E,#ffec99,#FFD200);
+}
+.toppers:nth-child(3) {
+  background: linear-gradient(to right, #b33c00,#ffbb99,#ff661a);
+}
+.list {
+  margin: 15px auto;
+  min-height: 100px;
+  /* width: 75%; */
+  border-radius: 60px;
+  padding: 10px 10px;
+
+}
+.list-text {
+  margin: auto;
+}
+nav {
+  background: linear-gradient(to right bottom,#ECE9E6,#FFFFFF);
+}
+.gold {
+    background: linear-gradient(to right, #F7971E,#ffec99,#FFD200);
+}
+.silver {
+  background: linear-gradient(to right, #ADA996,#F2F2F2,#DBDBDB,#EAEAEA)
+}
+.bronze {
+  background: linear-gradient(to right, #b33c00,#ffbb99,#ff661a);
+}
+.list:nth-child(4n+0) {
+  background: linear-gradient(to right, #2980B9,#6DD5FA,#FFFFFF)
+}
+.list:nth-child(4n+1) {
+  background: linear-gradient(to right,#3A1C71,#D76D77,#ffaf7b)
+}
+.list:nth-child(4n+2) {
+  background: linear-gradient(to right,#799F0C,#FFE000)
+}
+.list:nth-child(4n+3) {
+  background: linear-gradient(to right,#a80077,#66ff00)
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
